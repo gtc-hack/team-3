@@ -34,6 +34,8 @@ void setup() {
   Robot.beginTFT();
   Robot.beginSD();
   Robot.beginSpeaker();
+  char aTinyMelody[] = "4gbag2d-4dgb2a4agab";// This is what we will play
+  Robot.playMelody(aTinyMelody);// Play the melody
 }
 
 void loop() {

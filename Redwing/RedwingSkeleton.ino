@@ -22,7 +22,8 @@
 //How would you manage whose turn it is?
 
 void setup() {
-  // initialize the Robot, SD card, speaker, and display
+  // Initialize the Robot, SD card, speaker, and display
+  // Play some song! How about the first some seconds of your national anthem? :)
 }
 
 void loop() {
