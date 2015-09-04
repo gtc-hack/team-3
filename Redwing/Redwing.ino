@@ -113,11 +113,11 @@ void play(){
         }
 
         if(player1Score==2){
-          Robot.text("Congrats Player1",10,1000);
+          Robot.text("Congrats Player1",10,110);
           dance();
           break;
          }else if(player2Score==2){
-           Robot.text("Congrats Player2",10,1000);
+           Robot.text("Congrats Player2",10,110);
            dance();
            break;
           }
@@ -125,12 +125,12 @@ void play(){
 }
 
 void dance(){
-  //Play music
-  Robot.playFile("melody.sqm");
   //Get the led blinking
   ledOn();
   ledOn();
   ledOn();
+  //Play music
+  Robot.playFile("melody.sqm");
   // Dance :)
   Robot.motorsWrite(255,-255);
   delay(1000);
